@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
-      <h1 className="text-2xl font-bold mb-4">Todo App</h1>
+      <h1 className="font-bold mb-4 text-3xl">Todo App</h1>
       <div className="flex mb-4">
         <input
           type="text"
