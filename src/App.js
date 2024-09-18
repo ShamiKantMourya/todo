@@ -61,7 +61,7 @@ function App() {
                   const newText = prompt("Edit task", todo.text);
                   if (newText) editTodo(todo.id, newText);
                 }}
-                className="text-yellow-500 hover:text-yellow-600 mr-2"
+                className="text-yellow-500 hover:text-yellow-600 mr-2 border-r-2 border-gray-600 pr-2"
               >
                 Edit
               </button>
